@@ -3,6 +3,8 @@
 Types : string, boolern, Number, Null, undefined, symbol,
 bigInt
 */
+
+/*
 const score = 100
 const scoreVal =100.3
 
@@ -17,11 +19,14 @@ console.log(id === anotherId)
 
 const bigNumber = 123456789098765434567n
 
+
+*/
+
+
 // Referance (non primitive)
 
 /*
 Types : Array, Objects, Functions
-*/
 
 
 const heros = ['ironman', 'spiderman' , 'doga']
@@ -34,6 +39,8 @@ let myobj={
 const myfunction = function(){
     console.log("helloWorld")
 }
+*/
+
 
 /*
 Return type of variables in JavaScript
@@ -51,3 +58,30 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack (Primitive), Heap(Non-primitive)
+
+let myName = "yashjain"
+let unotherName = myName
+unotherName = "onlyYash"
+
+
+
+console.log(unotherName)
+console.log(myName)
+
+let userOne ={
+    email : "yashjain@gmail.com",
+    upi :"user@sbi"
+}
+
+let userTwo = userOne
+
+userTwo.email =" ysj@net.com"
+
+console.log(userOne)
+console.log(userTwo)
