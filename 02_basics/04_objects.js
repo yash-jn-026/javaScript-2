@@ -8,7 +8,7 @@ tinderUser.isLoggedIn = true
 //console.log(tinderUser);
 
 const regularUser = {
-    email: "someEmail@email.com", 
+    email: "someEmail@email.com",// 
     fullname: {
         firstName: "yash",
         lastName: 'jain'
@@ -47,8 +47,8 @@ const user =
 
 user[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(tinderUser);
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn')); 
