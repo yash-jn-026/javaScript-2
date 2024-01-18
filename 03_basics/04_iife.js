@@ -5,7 +5,7 @@
     console.log(`DB CONNECTED`);
 })();
 
-// non name iife
+// non name i ife
 
 ((name)=>{
     console.log(`DB Connected ${name}`);
