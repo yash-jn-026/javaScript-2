@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Document</title>
     <style>
-        .bg-black{
+        .bg-black {
             background-color: #212121;
             color: beige;
         }
     </style>
 </head>
-<body class="bg-black>
+
+<body class="bg-black">
     <div class="parent">
-        <div class="monday"></div>
-        <div class="tueday"></div>
-        <div class="wednesday"></div>
-        <div class="thursday"></div>
-        <div class="firday"></div>
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+        <div class="day">fryday</div>
     </div>
 </body>
+<script>
+    const parent = document.querySelector('.parent')
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[1].innerHTML);
+
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+
+    }
+parent.children[1].style.color ="orange"
+console.log(parent.firstElementChild);
+console.log(parent.lastElementChild);
+const day1 = document.querySelector('.day')
+
+console.log(day1);
+console.log(day1.parentElement);
+console.log(day1.nextElementSibling);
+console.log("node", parent.childNodes);
+
+
+</script>
+
 </html>
